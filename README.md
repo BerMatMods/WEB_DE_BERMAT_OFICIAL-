@@ -205,6 +205,15 @@
     </div>
   </section>
 
+  <!-- Imagen rectangular centrada y adornada en la parte inferior -->
+<section style="text-align:center; padding: 40px 20px;">
+  <div style="display: inline-block; border: 5px solid #8a2be2; padding: 15px; border-radius: 20px; box-shadow: 0 0 25px #8a2be2; margin-top: 50px;">
+    <img src="https://i.postimg.cc/B6mW6Tkb/Banner-para-Twitch-Gamer-Ne-n-Morado-y-Negro-20250306-103302-0000.png" 
+         alt="Banner BerMatModZ" 
+         style="width: 90%; max-width: 700px; border-radius: 12px;">
+  </div>
+</section>
+
   <footer>
     © 2025 ⚡ 𝑩𝒆𝒓𝑴𝒂𝒕𝑴𝒐𝒅𝒁 ⚡ | 𝑫𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐 𝒑𝒐𝒓 𝑨𝒏𝒕𝒉'𝒁𝒛 𝑩𝒆𝒓𝒓𝒐𝒄𝒂𝒍 — 𝙇𝙞𝙙𝙚𝙧 𝙚𝙣 𝘽𝙚𝙧𝙈𝙖𝙩𝙈𝙤𝙙𝙕 & 𝙩𝙤𝙙𝙤 𝙚𝙡 𝙨𝙞𝙨𝙩𝙚𝙢𝙖👽 
   </footer>
