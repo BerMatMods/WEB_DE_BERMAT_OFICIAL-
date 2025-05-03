@@ -156,15 +156,15 @@
     <div class="background"></div>
 
     <div class="profile">
-        <img src="https://i.pinimg.com/originals/7f/72/19/7f7219f22e9d81e9f6d09d7ec1899b85.jpg" alt="Foto de perfil BerMatModZ">
+        <img src="https://images.app.goo.gl/NXu8J" alt="Foto de perfil BerMatModZ">
         <h1>⚡ BerMatModZ ⚡</h1>
-        <h2>Programador y hacker más temido del ciberespacio</h2>
+        <h2>Programador más temido del ciberespacio asociados con Anonymous</h2>
 
-        <p>¡Bienvenido al perfil oficial de BerMatModZ, el hacker y programador más avanzado! Aquí podrás conocer más sobre mi trabajo, mis intereses y cómo conectar conmigo a través de mis redes sociales.</p>
+        <p>¡Bienvenido al perfil oficial de BerMatModZ,  moder y programador más avanzado! Aquí podrás conocer más sobre mi trabajo, mis intereses y cómo conectar conmigo a través de mis redes sociales.</p>
 
         <div class="social-links">
-            <a href="https://www.facebook.com/AnthZzBerrocal" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/AnthZzBerrocal" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/share/192MxyLRmV/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/king_berrocal?igsh=MXFvamljcnN2bzJkbg==" target="_blank">Instagram</a>
             <a href="https://open.spotify.com/user/AnthZzBerrocal" target="_blank">Spotify</a>
             <a href="https://www.youtube.com/c/AnthZzBerrocal" target="_blank">YouTube</a>
             <a href="https://wa.me/51900233784" target="_blank">WhatsApp</a>
@@ -178,6 +178,11 @@
 
         <div class="banner">⚡ BerMatModZ ⚡</div>
     </div>
+
+<div class="banner">AnthzzBerrocal</div>
+    </div>
+    
+
 
 </body>
 </html>
