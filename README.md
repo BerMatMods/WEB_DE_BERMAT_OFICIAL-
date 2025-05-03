@@ -1,6 +1,8 @@
 <section style="text-align:center; padding: 40px 20px;">
-  <!-- Imagen centrada en la parte superior -->
-  <img src="https://postimg.cc/PLhYpTk1" alt="Código BerMatModZ" style="width: 250px; height: 250px; border-radius: 10px; display: block; margin-left: auto; margin-right: auto;">
+  <!-- Imagen centrada en un cuadro adornado -->
+  <div style="display: inline-block; border: 5px solid #00ffe1; padding: 20px; border-radius: 15px; box-shadow: 0 0 20px #00ffe1;">
+    <img src="https://i.postimg.cc/bvST5wCV/Mag-Pic-20250501-185936660-3.jpg" alt="Código BerMatModZ" style="width: 250px; height: 250px; border-radius: 10px;">
+  </div>
 </section>
 
 👀💪𝑩𝑬𝑹𝑴𝑨𝑻𝑴𝑶𝑫𝑺 🫦 𝑻𝑬 𝑫𝑨 🤡𝑳𝑨 𝑩𝑰𝑬𝑵𝑽𝑬𝑵𝑰𝑫𝑨  👹 𝑨𝑳 🔪𝑴𝑼𝑵𝑫𝑶 𝑫𝑬 🔥𝑪𝑰𝑽𝑬𝑹𝑨𝑻𝑨𝑸𝑼𝑬 😎 𝒀 💥𝑪𝑰𝑽𝑬𝑹𝑺𝑬𝑮𝑼𝑹𝑰𝑫𝑨𝑫 👽🤖
