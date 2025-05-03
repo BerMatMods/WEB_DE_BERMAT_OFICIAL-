@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>⚡ BerMatModZ ⚡ - Perfil Hacker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <style>
         /* Fondo oscuro estilo hacker */
         body {
-            font-family: "Courier New", Courier, monospace;
+            font-family: 'Roboto', sans-serif;
             background-color: #121212;
             color: #00FF00;
             margin: 0;
@@ -43,6 +44,7 @@
             border: 2px solid #00FF00;
             padding: 10px;
             border-radius: 5px;
+            font-family: 'Press Start 2P', cursive;
         }
 
         .social-links a:hover {
@@ -74,6 +76,7 @@
             background-color: rgba(18, 18, 18, 0.8);
             box-shadow: 0px 0px 15px #00FF00;
             animation: pulse 2s infinite;
+            font-family: 'Roboto', sans-serif;
         }
 
         /* Animación de pulsación en el cuadro */
@@ -105,6 +108,7 @@
             border: 2px solid #00FF00;
             border-radius: 5px;
             animation: fadeIn 3s ease-in-out;
+            font-family: 'Roboto', sans-serif;
         }
 
         /* Efecto de desvanecimiento de la información */
@@ -136,20 +140,10 @@
 
         /* Estilo del banner */
         .banner {
-            font-size: 3em;
+            font-size: 2.5em;
             color: #FF0000;
             margin-top: 30px;
-            animation: rotate 10s linear infinite;
-        }
-
-        /* Animación de rotación */
-        @keyframes rotate {
-            0% {
-                transform: rotate(0deg);
-            }
-            100% {
-                transform: rotate(360deg);
-            }
+            font-family: 'Press Start 2P', cursive;
         }
 
         /* Diseño adaptativo para pantallas pequeñas */
@@ -176,7 +170,7 @@
             }
 
             .banner {
-                font-size: 2.5em;
+                font-size: 2em;
             }
 
             .info-box {
@@ -215,10 +209,11 @@
             </div>
         </div>
 
-        <div class="banner">⚡ Anonymous | BerMatModZ ⚡</div>
+        <!-- Banner con el nombre de BerMatModZ -->
+        <div class="banner">⚡ BerMatModZ ⚡</div>
 
         <div class="info-box">
-            <p>Mi objetivo: Cambiar el mundo a través de la tecnología. Siempre buscando nuevas fronteras para hackear.</p>
+            <p>Mi objetivo: Cambiar el mundo a través de la tecnología. Siempre buscando nuevas fronteras para invadir.</p>
         </div>
     </div>
 </body>
