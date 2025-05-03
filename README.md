@@ -1,88 +1,90 @@
 # bermatmods.github.io
-BerMat 
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>⚡BerMatModZ🔥 | Sitio Oficial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚡BerMatModZ🔥 - Página Oficial</title>
   <style>
     body {
-      background-color: #0e0e0e;
-      color: #ffffff;
-      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-    }
-    header {
-      background-color: #111111;
-      padding: 30px;
+      background: linear-gradient(to bottom, #1a1a1a, #333);
+      font-family: 'Courier New', monospace;
+      color: #00ffcc;
       text-align: center;
-      border-bottom: 5px solid #ffde59;
+      overflow-x: hidden;
     }
-    h1 {
-      color: #ffde59;
-      font-size: 3em;
-      margin: 0;
-    }
-    p {
-      margin: 5px 0;
-      font-size: 1.2em;
-    }
-    section {
-      padding: 20px;
-    }
-    ul {
-      list-style-type: square;
-      padding-left: 20px;
-    }
-    footer {
-      background-color: #111111;
-      padding: 15px;
-      text-align: center;
-      border-top: 2px dashed #444444;
-      font-size: 0.9em;
-    }
+
     .banner {
-      text-align: center;
-      margin: 20px 0;
-      font-size: 2em;
-      color: #00ffff;
+      font-size: 3em;
+      margin-top: 40px;
+      animation: moverBanner 10s linear infinite;
+      color: #ffde59;
+      text-shadow: 0 0 20px #00ffcc;
+    }
+
+    @keyframes moverBanner {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(20px); }
+      100% { transform: translateY(0px); }
+    }
+
+    .anon-mask {
+      width: 160px;
+      margin: 40px auto;
+      animation: floatMask 6s ease-in-out infinite;
+    }
+
+    @keyframes floatMask {
+      0% { transform: translateY(0); opacity: 0.7; }
+      50% { transform: translateY(15px); opacity: 1; }
+      100% { transform: translateY(0); opacity: 0.7; }
+    }
+
+    .content {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .content h2 {
+      color: #ffffff;
+    }
+
+    footer {
+      margin-top: 60px;
+      color: #999;
+      font-size: 0.8em;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>⚡BerMatModZ🔥</h1>
-    <p>Programador Urbano | Hacker Ético | Andahuaylas</p>
-    <p>Creado con flow por Anth'Zz Berrocal</p>
-  </header>
 
-  <section>
-    <div class="banner">Bienvenido a mi mundo digital</div>
+  <div class="banner">⚡BerMatModZ🔥</div>
 
-    <h2>¿Quién soy?</h2>
-    <p>Soy BerMatModZ, amante del gym, experto en tecnología y creador de bots con inteligencia artificial.</p>
+  <div class="anon-mask">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Guy_Fawkes_mask.svg/480px-Guy_Fawkes_mask.svg.png" alt="Anonymous Mask" width="100%">
+  </div>
 
-    <h2>Proyectos legendarios:</h2>
-    <ul>
-      <li>⚡ BerMat-Bot MD🔥 (Bot de WhatsApp con IA y juegos)</li>
-      <li>BerMat_Mods (Personalización y comandos únicos)</li>
-      <li>FAMA: Fuerza Anónima de Mentes Avanzadas</li>
+  <div class="content">
+    <h2>Bienvenido a la página oficial de BerMatModZ</h2>
+    <p>Programador de bots, hacker ético y creador de proyectos tecnológicos avanzados.</p>
+    <p>Originario de <strong>Andahuaylas</strong></p>
+    <p>Novia: <strong>Briyidth Jhorgina</strong></p>
+
+    <h2>Proyectos:</h2>
+    <ul style="list-style: none; color: #ffffff; text-align: left; padding-left: 0;">
+      <li>⚡ BerMat-Bot MD🔥 (WhatsApp Bot con IA)</li>
+      <li>FAMA - Fuerza Anónima de Mentes Avanzadas</li>
+      <li>Simulador de Hack con voz y efectos</li>
     </ul>
 
-    <h2>Datos personales:</h2>
-    <ul>
-      <li>Nombre real: Anth'Zz Berrocal</li>
-      <li>Alias: BerMatModZ</li>
-      <li>Ubicación: Andahuaylas, Perú</li>
-      <li>Novia: Briyidth Jhorgina</li>
-      <li>Pasiones: Tecnología, programación, IA, gym</li>
-    </ul>
-  </section>
+    <p style="margin-top: 40px; color: #ffffff;">"El conocimiento es libre. Somos Anonymous. Somos BerMatModZ. No perdonamos, no olvidamos. ¡Prepárate!"</p>
+  </div>
 
   <footer>
-    Sitio creado con estilo por <strong>⚡BerMatModZ🔥</strong> | © 2025
+    Página creada por <strong>Anth'Zz Berrocal</strong> aka <strong>⚡BerMatModZ🔥</strong> © 2025
   </footer>
 </body>
 </html>
