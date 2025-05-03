@@ -22,7 +22,7 @@
 
         /* Animación de parpadeo en texto */
         h1, h2, p {
-            font-size: 2em;
+            font-size: 3em;
             animation: blink 1.5s infinite;
         }
 
@@ -117,7 +117,24 @@
             }
         }
 
-        /* Estilo para el banner */
+        /* Estilo de los cuadros de información */
+        .info-box {
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #00FF00;
+            background-color: rgba(0, 0, 0, 0.8);
+            animation: flash 1s infinite alternate;
+            border-radius: 10px;
+        }
+
+        /* Efecto de parpadeo en los cuadros */
+        @keyframes flash {
+            50% {
+                background-color: rgba(0, 255, 0, 0.5);
+            }
+        }
+
+        /* Estilo del banner */
         .banner {
             font-size: 3em;
             color: #FF0000;
@@ -135,23 +152,42 @@
             }
         }
 
-        /* Estilo de cuadros parpadeantes */
-        .info-box {
-            padding: 20px;
-            margin: 20px;
-            border: 2px solid #00FF00;
-            background-color: rgba(0, 0, 0, 0.8);
-            animation: flash 1s infinite alternate;
-            border-radius: 10px;
-        }
+        /* Diseño adaptativo para pantallas pequeñas */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5em;
+            }
 
-        /* Efecto de parpadeo en los cuadros */
-        @keyframes flash {
-            50% {
-                background-color: rgba(0, 255, 0, 0.5);
+            h2 {
+                font-size: 1.8em;
+            }
+
+            .profile-info {
+                font-size: 1.2em;
+            }
+
+            .social-links a {
+                font-size: 1.2em;
+                padding: 8px;
+            }
+
+            .profile {
+                padding: 15px;
+            }
+
+            .banner {
+                font-size: 2.5em;
+            }
+
+            .info-box {
+                font-size: 1.2em;
+            }
+
+            .profile img {
+                width: 120px;
+                height: 120px;
             }
         }
-
     </style>
 </head>
 <body>
@@ -159,11 +195,13 @@
     <div class="profile">
         <img src="https://i.pinimg.com/originals/7f/72/19/7f7219f22e9d81e9f6d09d7ec1899b85.jpg" alt="BerMatModZ">
         <h1>⚡ BerMatModZ ⚡</h1>
-        <h2>El hacker más temido del ciberespacio</h2>
+        <h2>El más temido del ciberespacio</h2>
 
         <div class="profile-info">
             <p><span>Creador:</span> AnthZz Berrocal</p>
             <p><span>Ubicación:</span> Andahuaylas, Perú</p>
+            <p><span>Novia: </span><span style="color: #FF1493;">❤️ Briyidth Jhorgina ❤️</span></p>
+            <p><span>Intereses:</span> 💪 Gym, Tecnología, Programación, Ciberseguridad</p>
         </div>
 
         <div class="info-box">
