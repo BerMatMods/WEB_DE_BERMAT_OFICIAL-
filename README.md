@@ -197,7 +197,7 @@
       <p>💻 <strong>GitHub:</strong> <a href="https://github.com/Anthzberrocal" target="_blank">github.com/Anthzberrocal</a></p>
       <div class="social-icons">
         <a href="https://wa.me/51937556459?text=**Hola%20AnthZz%20Berrocal%20soy%20(su%20nombre)%20me%20gustaría%20tener%20más%20información%20sobre%20el%20proyecto%20de%20BerMatModZ...**" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"></a>
-        <a href="https://github.com/Anthzberrocal" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+        <a href="https://github.com/BerMatMods" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
         <a href="https://www.instagram.com/king_berrocal?igsh=MXFvamljcnN2bzJkbg==" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
         <a href="https://www.facebook.com/share/16N6qCQLzm/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
         <a href="https://www.tiktok.com/@tuningcar321?_t=ZM-8w36jyweclT&_r=1" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok"></a>
