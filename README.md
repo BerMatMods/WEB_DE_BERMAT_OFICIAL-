@@ -1,146 +1,174 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html><html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Presentación BerMatModZ</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>⚡ BerMatModZ | Profesional ⚡</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Rajdhani:wght@500&family=Share+Tech+Mono&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      margin: 0;
-      background: #0f0f0f;
-      font-family: 'Orbitron', sans-serif;
-      color: #ffffff;
+      font-family: 'Rajdhani', sans-serif;
+      background: radial-gradient(circle, #0f0c29, #302b63, #24243e);
+      color: #fff;
       overflow-x: hidden;
+      line-height: 1.7;
+      position: relative;
     }
-
-    h1 {
+    body::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: url('https://www.transparenttextures.com/patterns/cubes.png');
+      opacity: 0.03;
+      z-index: 0;
+    }
+    .glow {
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00ffe1; }
+      to { text-shadow: 0 0 30px #00ffe1, 0 0 10px #00ffe1; }
+    }
+    header {
       text-align: center;
-      font-size: 2.2em;
-      color: #08f7fe;
-      margin-top: 20px;
-      text-shadow: 0 0 15px #08f7fe;
+      padding: 80px 20px;
+      background: linear-gradient(to bottom, #00000088, #000000cc);
+      z-index: 2;
+      position: relative;
     }
-
-    .intro {
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 4em;
+      color: #00ffe1;
+      letter-spacing: 3px;
+    }
+    .banner-section {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 40px 20px;
       text-align: center;
-      font-size: 1.2em;
-      margin: 20px;
-      color: #f2f2f2;
-      animation: glowText 5s ease-in-out infinite alternate;
     }
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      margin: 40px auto;
-      max-width: 1100px;
+    .banner {
+      font-size: 2em;
+      color: #00ffe1;
+      font-family: 'Orbitron', sans-serif;
+      margin: 20px auto;
+      max-width: 800px;
+      border: 2px solid #00ffe1;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00ffe1;
+      background: #00000055;
     }
-
-    .card {
-      background: rgba(30, 30, 30, 0.9);
-      border: 2px solid #08f7fe;
-      border-radius: 20px;
+    .section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 20px;
+      position: relative;
+      z-index: 2;
+    }
+    h2 {
+      font-size: 2.5em;
+      color: #00ffe1;
+      margin-bottom: 20px;
+      font-family: 'Orbitron', sans-serif;
+      border-left: 6px solid #00ffe1;
+      padding-left: 15px;
+    }
+    .info-box {
+      background: rgba(255, 255, 255, 0.05);
+      border-left: 5px solid #00ffe1;
       padding: 25px;
-      width: 300px;
-      box-shadow: 0 0 20px #08f7fe55;
-      transition: transform 0.6s ease, box-shadow 0.6s ease;
+      border-radius: 15px;
+      margin-bottom: 40px;
+      font-size: 1.3em;
+      font-family: 'Share Tech Mono', monospace;
+      box-shadow: 0 0 12px #00ffe1aa;
     }
-
-    .card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 0 30px #08f7fe;
-    }
-
-    .card h2 {
-      color: #ff26a8;
-      margin-bottom: 15px;
-      font-size: 1.4em;
-    }
-
-    .card p {
-      line-height: 1.5;
-      color: #ccc;
-    }
-
     .social-icons {
-      position: fixed;
-      bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
       display: flex;
-      gap: 25px;
-      animation: floatIcons 6s ease-in-out infinite;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+      flex-wrap: wrap;
     }
-
-    .social-icons a {
-      color: #08f7fe;
-      font-size: 1.8em;
-      transition: transform 0.5s ease;
+    .social-icons a img {
+      width: 50px;
+      height: 50px;
+      transition: transform 0.6s ease;
+      animation: float 3s ease-in-out infinite;
+      filter: drop-shadow(0 0 5px #00ffe1);
     }
-
-    .social-icons a:hover {
+    .social-icons a img:hover {
       transform: scale(1.2);
-      color: #ff26a8;
     }
-
-    @keyframes glowText {
-      0% { text-shadow: 0 0 10px #08f7fe; }
-      100% { text-shadow: 0 0 20px #ff26a8; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
     }
-
-    @keyframes floatIcons {
-      0%, 100% { transform: translate(-50%, 0); }
-      50% { transform: translate(-50%, -10px); }
+    footer {
+      background: rgba(0,0,0,0.85);
+      color: #aaa;
+      text-align: center;
+      padding: 40px;
+      font-size: 1em;
+    }
+    a {
+      color: #00ffe1;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-
-<h1>⚡BerMatModZ - Presentación Oficial🔥</h1>
-<p class="intro">Bienvenid@ al universo de BerMatModZ: Programación, Bots, Ciberseguridad y Revolución Digital</p>
-
-<div class="container">
-  <div class="card">
-    <h2>Sobre Mí</h2>
-    <p><strong>Alias:</strong> BerMatModZ<br>
-    <strong>Nombre:</strong> Anth'Zz Berrocal<br>
-    <strong>Ubicación:</strong> Andahuaylas, Perú<br>
-    <strong>Profesión:</strong> Desarrollador, hacker ético, experto en IA y bots</p>
-  </div>
-
-  <div class="card">
-    <h2>Proyectos</h2>
-    <p>- ⚡BerMat-Bot MD🔥 (WhatsApp Bot)<br>
-    - BerMat_Mods (Mods de sistemas y apps)<br>
-    - Simuladores hackers para Termux<br>
-    - FAMA: Fuerza Anónima de Mentes Avanzadas</p>
-  </div>
-
-  <div class="card">
-    <h2>Habilidades</h2>
-    <p>- Programación en Python, JS y Bash<br>
-    - Automatización en Termux y VPS<br>
-    - Ciberseguridad y anonimato digital<br>
-    - Diseño y personalización de bots IA</p>
-  </div>
-
-  <div class="card">
-    <h2>Contacto</h2>
-    <p><strong>WhatsApp:</strong> +51 937556459<br>
-    <strong>Email:</strong> anthzzdev@gmail.com<br>
-    <strong>Alias de equipo:</strong> Grupo BerMat, Extensión F.A.M.A</p>
-  </div>
-</div>
-
-<div class="social-icons">
-  <a href="https://wa.me/51937556459" target="_blank"><i class="fab fa-whatsapp"></i></a>
-  <a href="https://github.com/Anthzberrocal" target="_blank"><i class="fab fa-github"></i></a>
-  <a href="https://www.facebook.com/anthzzberrocal" target="_blank"><i class="fab fa-facebook"></i></a>
-  <a href="https://www.instagram.com/anthzzdev" target="_blank"><i class="fab fa-instagram"></i></a>
-</div>
-
+  <header>
+    <h1 class="glow">⚡ BerMatModZ ⚡</h1>
+    <p style="font-family: 'Share Tech Mono'; font-size: 1.2em;">Asociado con hackers & Desarrollador de Bots</p>
+  </header>
+  <section class="banner-section">
+    <div class="banner glow">👀💪𝑩𝑬𝑹𝑴𝑨𝑻𝑴𝑶𝑫𝑺 🫦 𝑻𝑬 𝑫𝑨 🤡𝑳𝑨 𝑩𝑰𝑬𝑵𝑽𝑬𝑵𝑰𝑫𝑨 👹 𝑨𝑳 🔪𝑴𝑼𝑵𝑫𝑶 𝑫𝑬 🔥𝑪𝑰𝑽𝑬𝑹𝑨𝑻𝑨𝑸𝑼𝑬 😎 𝒀 💥𝑪𝑰𝑽𝑬𝑹𝑺𝑬𝑮𝑼𝑹𝑰𝑫𝑨𝑫 👽🤖</div>
+    <div class="banner glow">(𝙎𝙊𝙈𝙊𝙎 𝘼𝙉𝙊𝙉𝙔𝙈𝙊𝙐𝙎. 𝙎𝙊𝙈𝙊𝙎 𝙇𝙀𝙂𝙄𝙊𝙉. 𝙉𝙊 𝙊𝙇𝙑𝙄𝘿𝘼𝙈𝙊𝙎. 𝙀𝙎𝙋𝙀𝙍𝘼𝙉𝙊𝙎...)</div>
+  </section>
+  <section class="section">
+    <h2>👤 Perfil Personal</h2>
+    <div class="info-box">
+      <p>📛 <strong>Nombre:</strong> Anth'Zz Berrocal</p>
+      <p>🧠 <strong>Alias:</strong> BerMatModZ</p>
+      <p>📍 <strong>Ubicación:</strong> Andahuaylas, Perú</p>
+      <p>🔥 <strong>Colaboración:</strong> 10/11/2023</p>
+      <p>💻 <strong>Especialización:</strong> Bots en Termux, interfaces IA, hacking visual, efectos decorativos, automatización avanzada.</p>
+    </div>
+    <h2>🚀 Proyectos Premium</h2>
+    <div class="info-box">
+      <p>⚡ <strong>BerMat-Bot MD🔥</strong> — WhatsApp bot completo, basado en GataBot-MD pero con mejoras, IA personalizada, juegos con emojis, interfaz romántica y comando .BerMat</p>
+      <p>🧠 <strong>IA Aprendiz</strong> — Sistema en Termux con conversación avanzada e interacción natural</p>
+      <p>📲 <strong>Clonador WhatsApp Pro</strong> — Replica estética profesional con mensajes, efectos, audios IA y estilo hacker</p>
+      <p>🛰️ <strong>F.A.M.A</strong> — Inteligencia cibernética decorada con animaciones y control remoto desde chat</p>
+    </div>
+    <h2>🔧 Servicios y Skills</h2>
+    <div class="info-box">
+      <p>✅ Creación de bots avanzados con IA</p>
+      <p>✅ Automatización con Termux y Python</p>
+      <p>✅ Hackeando en modo profesional de interfaces</p>
+      <p>✅ Desarrollo visual con fondos, efectos y textos animados</p>
+    </div>
+    <h2>🌐 Redes y Contacto</h2>
+    <div class="info-box">
+      <p>📱 <strong>WhatsApp:</strong> <a href="https://wa.me/51937556459" target="_blank">+51 937 556 459</a></p>
+      <p>💻 <strong>GitHub:</strong> <a href="https://github.com/Anthzberrocal" target="_blank">github.com/Anthzberrocal</a></p>
+      <div class="social-icons">
+        <a href="https://wa.me/51937556459" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"></a>
+        <a href="https://github.com/Anthzberrocal" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+        <a href="https://www.instagram.com/king_berrocal" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/share/16N6qCQLzm/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+        <a href="https://www.tiktok.com/@tuningcar321" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok"></a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    © 2025 ⚡ 𝑩𝒆𝒓𝑴𝒂𝒕𝑴𝒐𝒅𝒁 ⚡ | 𝑫𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐 𝒑𝒐𝒓 𝑨𝒏𝒕𝒉'𝒁𝒛 𝑩𝒆𝒓𝒓𝒐𝒄𝒂𝒍 — 𝙇𝙞𝙙𝙚𝙧 𝙚𝙣 𝘽𝙚𝙧𝙈𝙖𝙩𝙈𝙤𝙙𝙕 & 𝙩𝙤𝙙𝙤 𝙚𝙡 𝙨𝙞𝙨𝙩𝙚𝙢𝙖👽 
+  </footer>
 </body>
 </html>
