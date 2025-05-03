@@ -1,180 +1,187 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>⚡BerMatModZ-MD🔥 - Página Oficial</title>
-  <!-- Fuentes Elegantes -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-  <!-- Iconos de FontAwesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(to bottom, #121212, #333);
-      font-family: 'Poppins', sans-serif;
-      color: #00ffcc;
-      text-align: center;
-      overflow-x: hidden;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ BerMatModZ ⚡ - Perfil Hacker</title>
+    <style>
+        /* Fondo oscuro estilo hacker */
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #121212;
+            color: #00FF00;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+        }
 
-    /* Banner con Animación */
-    .banner {
-      font-size: 4em;
-      margin-top: 40px;
-      color: #ffde59;
-      text-shadow: 0 0 30px #00ffcc, 0 0 10px #ffde59;
-      animation: moverBanner 10s linear infinite;
-    }
+        /* Animación de parpadeo en texto */
+        h1, h2, p {
+            font-size: 2em;
+            animation: blink 1.5s infinite;
+        }
 
-    @keyframes moverBanner {
-      0% { transform: translateY(0px); }
-      50% { transform: translateY(20px); }
-      100% { transform: translateY(0px); }
-    }
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
 
-    /* Máscara de Anonymous con Animación */
-    .anon-mask {
-      width: 200px;
-      margin: 50px auto;
-      animation: floatMask 6s ease-in-out infinite;
-    }
+        /* Estilo para enlaces de redes sociales */
+        .social-links a {
+            color: #00FF00;
+            text-decoration: none;
+            font-size: 1.5em;
+            margin: 10px;
+            display: inline-block;
+            transition: 0.3s;
+            border: 2px solid #00FF00;
+            padding: 10px;
+            border-radius: 5px;
+        }
 
-    @keyframes floatMask {
-      0% { transform: translateY(0); opacity: 0.8; }
-      50% { transform: translateY(20px); opacity: 1; }
-      100% { transform: translateY(0); opacity: 0.8; }
-    }
+        .social-links a:hover {
+            color: #FF0000;
+            background-color: #00FF00;
+            border-color: #FF0000;
+            transform: scale(1.1);
+        }
 
-    /* Contenido Principal */
-    .content {
-      padding: 40px;
-      max-width: 900px;
-      margin: auto;
-      background: rgba(0, 0, 0, 0.6);
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0, 255, 204, 0.3);
-    }
+        /* Fondo con la máscara de Anonymous */
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a0/Anonymous_mask.svg');
+            background-size: cover;
+            opacity: 0.1;
+            z-index: -1;
+        }
 
-    .content h2 {
-      font-family: 'Roboto', sans-serif;
-      color: #ffffff;
-      font-size: 2.5em;
-      margin-bottom: 20px;
-      text-shadow: 0 0 15px #ffde59;
-    }
+        /* Estilo del cuadro de perfil */
+        .profile {
+            text-align: center;
+            border: 3px solid #00FF00;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(18, 18, 18, 0.8);
+            box-shadow: 0px 0px 15px #00FF00;
+            animation: pulse 2s infinite;
+        }
 
-    .content p {
-      font-size: 1.2em;
-      color: #e0e0e0;
-    }
+        /* Animación de pulsación en el cuadro */
+        @keyframes pulse {
+            0% {
+                box-shadow: 0px 0px 15px #00FF00;
+            }
+            50% {
+                box-shadow: 0px 0px 25px #FF0000;
+            }
+            100% {
+                box-shadow: 0px 0px 15px #00FF00;
+            }
+        }
 
-    .content ul {
-      list-style: none;
-      padding-left: 0;
-      color: #ffffff;
-    }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+        }
 
-    .content ul li {
-      margin: 10px 0;
-    }
+        .profile-info {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #00FF00;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 2px solid #00FF00;
+            border-radius: 5px;
+            animation: fadeIn 3s ease-in-out;
+        }
 
-    .content .image-container {
-      margin-top: 40px;
-      border-radius: 50%;
-      width: 180px;
-      height: 180px;
-      overflow: hidden;
-      border: 4px solid #00ffcc;
-      margin-bottom: 30px;
-    }
+        /* Efecto de desvanecimiento de la información */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 
-    .content .image-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+        /* Estilo para el banner */
+        .banner {
+            font-size: 3em;
+            color: #FF0000;
+            margin-top: 30px;
+            animation: rotate 10s linear infinite;
+        }
 
-    /* Redes Sociales */
-    .social-links {
-      margin-top: 40px;
-    }
+        /* Animación de rotación */
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
 
-    .social-links a {
-      color: #ffffff;
-      font-size: 2.5em;
-      margin: 0 20px;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
+        /* Estilo de cuadros parpadeantes */
+        .info-box {
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #00FF00;
+            background-color: rgba(0, 0, 0, 0.8);
+            animation: flash 1s infinite alternate;
+            border-radius: 10px;
+        }
 
-    .social-links a:hover {
-      color: #ffde59;
-    }
+        /* Efecto de parpadeo en los cuadros */
+        @keyframes flash {
+            50% {
+                background-color: rgba(0, 255, 0, 0.5);
+            }
+        }
 
-    footer {
-      margin-top: 60px;
-      color: #999;
-      font-size: 1em;
-    }
-  </style>
+    </style>
 </head>
 <body>
+    <div class="background"></div>
+    <div class="profile">
+        <img src="https://i.pinimg.com/originals/7f/72/19/7f7219f22e9d81e9f6d09d7ec1899b85.jpg" alt="BerMatModZ">
+        <h1>⚡ BerMatModZ ⚡</h1>
+        <h2>El hacker más temido del ciberespacio</h2>
 
-  <!-- Banner con tu Nombre -->
-  <div class="banner">⚡BerMatModZ🔥</div>
+        <div class="profile-info">
+            <p><span>Creador:</span> AnthZz Berrocal</p>
+            <p><span>Ubicación:</span> Andahuaylas, Perú</p>
+        </div>
 
-  <!-- Máscara de Anonymous -->
-  <div class="anon-mask">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Guy_Fawkes_mask.svg/480px-Guy_Fawkes_mask.svg.png" alt="Anonymous Mask">
-  </div>
+        <div class="info-box">
+            <p><span>Redes Sociales:</span></p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/AnthZzBerrocal" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/AnthZzBerrocal" target="_blank">Instagram</a>
+                <a href="https://open.spotify.com/user/AnthZzBerrocal" target="_blank">Spotify</a>
+                <a href="https://www.youtube.com/c/AnthZzBerrocal" target="_blank">YouTube</a>
+                <a href="https://wa.me/51900233784" target="_blank">WhatsApp</a>
+            </div>
+        </div>
 
-  <!-- Contenido Principal -->
-  <div class="content">
-    <!-- Imagen Personal -->
-    <div class="image-container">
-      <img src= alt="Tu Imagen">
+        <div class="banner">⚡ Anonymous | BerMatModZ ⚡</div>
+
+        <div class="info-box">
+            <p>Mi objetivo: Cambiar el mundo a través de la tecnología. Siempre buscando nuevas fronteras para hackear.</p>
+        </div>
     </div>
-
-    <h2>Bienvenido a la página oficial de BerMatModZ</h2>
-    <p>Soy programador,creador de bots con inteligencia artificial. ¡Transformo la tecnología!</p>
-    <p>Originario de <strong>Andahuaylas</strong>, con un compromiso para cambiar el futuro.</p>
-    <p>Colaboración: <strong>Mi Novia :Briyidth Jhorgina</strong> 💖</p>
-
-    <h2>Proyectos:</h2>
-    <ul>
-      <li>⚡ BerMat-Bot MD🔥 (WhatsApp Bot con IA)</li>
-      <li>FAMA - Fuerza Anónima de Mentes Avanzadas</li>
-      <li>Hacker con efectos de voz y animaciones</li>
-    </ul>
-
-    <p>"El conocimiento es libre. Somos Anonymous. Somos BerMatModZ. No perdonamos, no olvidamos. ¡Prepárate!"</p>
-
-    <!-- Redes Sociales -->
-    <div class="social-links">
-      <a href="https://www.facebook.com/AnthZz.Berrocal" target="_blank">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="https://www.instagram.com/AnthZz.Berrocal" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://open.spotify.com/user/AnthZz.Berrocal" target="_blank">
-        <i class="fab fa-spotify"></i>
-      </a>
-      <a href="https://www.youtube.com/c/AnthZzBerrocal" target="_blank">
-        <i class="fab fa-youtube"></i>
-      </a>
-      <a href="https://wa.me/+51900233784" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-      </a>
-    </div>
-  </div>
-
-  <!-- Pie de Página -->
-  <footer>
-    Página creada por <strong>Anth'Zz Berrocal</strong> ❤️10/11/23❤️ <strong>⚡BerMatModZ🔥</strong> © 2025
-  </footer>
-
 </body>
 </html>
