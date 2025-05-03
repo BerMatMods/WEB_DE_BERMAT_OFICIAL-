@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>⚡ BerMatModZ ⚡ - Perfil Hacker</title>
+    <title>⚡ BerMatModZ tu papi ⚡ - Perfil Hacker</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <style>
         /* Fondo oscuro estilo hacker */
@@ -194,7 +194,7 @@
         <div class="profile-info">
             <p><span>Creador:</span> AnthZz Berrocal</p>
             <p><span>Ubicación:</span> Andahuaylas, Perú</p>
-            <p><span>Novia: </span><span style="color: #FF1493;">❤️ Briyidth Jhorgina ❤️</span></p>
+            <p><span>Novia: </span><span style="color: #FF1493;">❤️ Briyidth Jhorgina Mamahuevo ChupaPinGa❤️</span></p>
             <p><span>Intereses:</span> 💪 Gym, Tecnología, Programación, Ciberseguridad</p>
         </div>
 
