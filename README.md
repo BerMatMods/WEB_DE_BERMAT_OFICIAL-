@@ -1,156 +1,111 @@
 <!DOCTYPE html><html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tienda BerMatModZ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚡ BerMatModZ | Hacker Oficial ⚡</title>
   <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0f0f0f;
-      color: #ffffff;
-    }header {
-  background: linear-gradient(135deg, #00ffe1, #8f00ff);
-  padding: 60px 20px;
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 100px 20px 60px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
+  font-family: 'Orbitron', sans-serif;
   font-size: 3.5em;
-  margin: 0;
-  text-shadow: 2px 2px 4px #000;
-}
-
-header p {
-  font-size: 1.3em;
-  margin-top: 10px;
-}
-
-nav {
-  background-color: #1a1a1a;
-  padding: 10px 0;
-  text-align: center;
-}
-
-nav a {
   color: #00ffe1;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
+  animation: glow 3s infinite alternate;
 }
 
-.store-section {
-  padding: 40px 20px;
-  max-width: 1200px;
+@keyframes glow {
+  from { text-shadow: 0 0 10px #00ffe1; }
+  to { text-shadow: 0 0 25px #00ffe1, 0 0 5px #00ffe1; }
+}
+
+.content {
+  max-width: 1000px;
   margin: auto;
-}
-
-.store-section h2 {
-  font-size: 2.5em;
-  margin-bottom: 30px;
-  border-bottom: 2px solid #00ffe1;
-  display: inline-block;
-}
-
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
-.product {
-  background-color: #1e1e1e;
-  border: 1px solid #333;
-  border-radius: 12px;
-  padding: 20px;
-  width: 300px;
-  box-shadow: 0 0 10px rgba(0,255,225,0.2);
-}
-
-.product h3 {
-  color: #00ffe1;
-  margin-top: 0;
-}
-
-.product p {
-  font-size: 1em;
-  line-height: 1.6;
-}
-
-.contact-section {
   padding: 40px 20px;
-  text-align: center;
+  line-height: 1.8;
+  font-size: 1.3em;
 }
 
-.contact-section h2 {
+.content h2 {
   font-size: 2em;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  color: #00ffe1;
+  border-left: 5px solid #00ffe1;
+  padding-left: 10px;
 }
 
-.contact-section p,
-.contact-section a {
-  font-size: 1.1em;
-  color: #00ffe1;
-  text-decoration: none;
+.info-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-left: 5px solid #00ffe1;
+  margin: 20px 0;
+  border-radius: 10px;
+  animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
 
 footer {
-  background-color: #1a1a1a;
   text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-  color: #777;
+  padding: 30px;
+  background: rgba(0,0,0,0.7);
+  font-size: 1em;
+  color: #888;
 }
 
   </style>
 </head>
-<body>  <header>
-    <h1>⚡BerMatModZ🔥</h1>
-    <p>¡Bienvenido a la tienda oficial de mis proyectos tecnológicos!</p>
-  </header>  <nav>
-    <a href="#quien-soy">Sobre mí</a>
-    <a href="#proyectos">Proyectos</a>
-    <a href="#contacto">Contacto</a>
-  </nav>  <section class="store-section" id="quien-soy">
-    <h2>Sobre el Creador</h2>
-    <div class="products">
-      <div class="product">
-        <h3>Anth'Zz Berrocal</h3>
-        <p>Fundador de BerMatModZ, experto en tecnología, bots, simulaciones hacker y automatización avanzada desde Andahuaylas, Perú.</p>
-      </div>
-      <div class="product">
-        <h3>Estilo y Filosofía</h3>
-        <p>"Domina la tecnología. Crea el futuro." Enfocado en crear herramientas útiles, impactantes y decoradas con estilo propio.</p>
-      </div>
-    </div>
-  </section>  <section class="store-section" id="proyectos">
-    <h2>Catálogo de Proyectos</h2>
-    <div class="products">
-      <div class="product">
-        <h3>⚡BerMat-Bot MD🔥</h3>
-        <p>Bot de WhatsApp con inteligencia artificial, comandos personalizados, juegos y estilo GataBot-MD. 100% gratuito y funcional.</p>
-      </div>
-      <div class="product">
-        <h3>BerMat_Mods</h3>
-        <p>Repositorio exclusivo con herramientas para Termux, bots públicos, decoraciones, IA y simuladores.</p>
-      </div>
-      <div class="product">
-        <h3>Simulador Anonymous</h3>
-        <p>Script de simulación de hackeos con interfaz visual, voz artificial y ambiente de ciberseguridad.</p>
-      </div>
-      <div class="product">
-        <h3>Clonador WhatsApp Fake</h3>
-        <p>Simulación de clonación de WhatsApp con estilo original y mensajes animados tipo app real. ¡Totalmente personalizable!</p>
-      </div>
-    </div>
-  </section>  <section class="contact-section" id="contacto">
-    <h2>Contacto Directo</h2>
-    <p>¿Interesado en un proyecto? Escríbeme directamente:</p>
-    <p><a href="https://wa.me/51937556459" target="_blank">WhatsApp: 937556459</a></p>
-    <p><a href="https://github.com/Anthzberrocal" target="_blank">GitHub: github.com/Anthzberrocal</a></p>
-  </section>  <footer>
-    © 2025 BerMatModZ | Diseñado por Anth'Zz Berrocal desde Andahuaylas. Todos los derechos reservados.
-  </footer></body>
+<body>
+  <header>
+    <h1>⚡ BerMatModZ | Hacker Real ⚡</h1>
+  </header>  <div class="content">
+    <h2>Sobre BerMatModZ</h2>
+    <div class="info-box">
+      <p><strong>Alias:</strong> BerMatModZ</p>
+      <p><strong>Nombre real:</strong> Anth'Zz Berrocal</p>
+      <p><strong>Ubicación:</strong> Andahuaylas, Perú</p>
+      <p><strong>Profesión:</strong> Hack3r de alto nivel, programador experto en automatización, bots de WhatsApp, inteligencia artificial y ciberseguridad.</p>
+    </div><h2>Logros y Reconocimientos</h2>
+<div class="info-box">
+  <p>Conocido por crear el bot <strong>⚡BerMat-Bot MD🔥</strong> y herramientas revolucionarias como <strong>clonadores de WhatsApp</strong>, <strong>simuladores de hackeo profesional</strong> y <strong>proyectos IA decorados</strong>. Ha sido reconocido en múltiples grupos tech por su creatividad, detalle visual y nivel técnico.</p>
+</div>
+
+<h2>Proyectos Reales</h2>
+<div class="info-box">
+  <p><strong>BerMat_Bot MD:</strong> Un bot completo con funciones de IA, comandos decorados, sistema de juegos y simulación profesional, ejecutable en Termux. No es simulación. Es 100% real.</p>
+  <p><strong>Clonador WhatsApp:</strong> Tecnología que muestra mensajes reales de personas interesadas en sus servicios. Efectos visuales y de voz incluidos, respetando el estilo visual de WhatsApp original.</p>
+  <p><strong>Hackeo Avanzado:</strong> Sistemas tipo Anonymous con interfaz realista, comandos avanzados y resultados impactantes.</p>
+</div>
+
+<h2>Contacto Directo</h2>
+<div class="info-box">
+  <p><strong>WhatsApp:</strong> <a href="https://wa.me/51937556459" style="color:#00ffe1" target="_blank">+51 937 556 459</a></p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/Anthzberrocal" style="color:#00ffe1" target="_blank">github.com/Anthzberrocal</a></p>
+</div>
+
+  </div>  <footer>
+    © 2025 BerMatModZ | Proyecto 100% real y profesional. Desarrollado por Anth'Zz Berrocal desde Andahuaylas.
+  </footer>
+</body>
 </html>
