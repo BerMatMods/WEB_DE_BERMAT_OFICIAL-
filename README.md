@@ -4,167 +4,176 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>⚡BerMatModZ🔥 - Página Oficial</title>
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Pacifico&display=swap" rel="stylesheet">
+  <!-- Fuentes Elegantes -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <!-- Iconos de FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #1a1a1a, #333);
-      font-family: 'Russo One', sans-serif;
-      color: #fff;
+      background: linear-gradient(to bottom, #121212, #333);
+      font-family: 'Poppins', sans-serif;
+      color: #00ffcc;
       text-align: center;
       overflow-x: hidden;
     }
 
-    h1, h2 {
-      font-family: 'Pacifico', cursive;
-      text-shadow: 0 0 20px #00ffcc, 0 0 30px #ffde59;
-    }
-
-    /* Animación para el banner */
+    /* Banner con Animación */
     .banner {
       font-size: 4em;
+      margin-top: 40px;
       color: #ffde59;
-      margin-top: 50px;
-      animation: moverBanner 5s ease-in-out infinite alternate;
-      text-shadow: 0 0 20px #00ffcc, 0 0 30px #ffde59;
+      text-shadow: 0 0 30px #00ffcc, 0 0 10px #ffde59;
+      animation: moverBanner 10s linear infinite;
     }
 
     @keyframes moverBanner {
-      0% { transform: translateY(0); }
-      50% { transform: translateY(10px); }
-      100% { transform: translateY(0); }
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(20px); }
+      100% { transform: translateY(0px); }
     }
 
-    /* Animación para la imagen de la máscara */
+    /* Máscara de Anonymous con Animación */
     .anon-mask {
-      width: 150px;
-      margin: 40px auto;
+      width: 200px;
+      margin: 50px auto;
       animation: floatMask 6s ease-in-out infinite;
     }
 
     @keyframes floatMask {
-      0% { transform: translateY(0); opacity: 0.7; }
-      50% { transform: translateY(15px); opacity: 1; }
-      100% { transform: translateY(0); opacity: 0.7; }
+      0% { transform: translateY(0); opacity: 0.8; }
+      50% { transform: translateY(20px); opacity: 1; }
+      100% { transform: translateY(0); opacity: 0.8; }
     }
 
-    /* Estilo de la imagen de perfil */
-    .profile-img {
-      border-radius: 50%;
-      width: 250px;
-      height: 250px;
-      object-fit: cover;
-      margin-top: 30px;
-      border: 5px solid #ffde59;
-      box-shadow: 0 0 15px rgba(0, 255, 204, 0.6);
-    }
-
-    /* Contenido principal */
+    /* Contenido Principal */
     .content {
+      padding: 40px;
       max-width: 900px;
       margin: auto;
-      padding: 20px;
-      color: #fff;
-      text-align: center;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 255, 204, 0.3);
     }
 
     .content h2 {
-      color: #ffde59;
+      font-family: 'Roboto', sans-serif;
+      color: #ffffff;
       font-size: 2.5em;
-      font-weight: bold;
-      margin-top: 20px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 15px #ffde59;
     }
 
     .content p {
       font-size: 1.2em;
-      color: #f0f0f0;
-      line-height: 1.8;
+      color: #e0e0e0;
     }
 
     .content ul {
       list-style: none;
-      padding: 0;
-      text-align: left;
-      margin-top: 30px;
+      padding-left: 0;
+      color: #ffffff;
     }
 
     .content ul li {
-      font-size: 1.3em;
-      padding: 8px 0;
-      border-bottom: 1px solid #555;
+      margin: 10px 0;
     }
 
-    .animated-text {
-      font-size: 2em;
-      color: #ffde59;
-      font-weight: bold;
-      animation: slideText 8s ease-in-out infinite;
-      margin-top: 20px;
+    .content .image-container {
+      margin-top: 40px;
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      overflow: hidden;
+      border: 4px solid #00ffcc;
+      margin-bottom: 30px;
     }
 
-    @keyframes slideText {
-      0% { transform: translateX(0); }
-      50% { transform: translateX(15px); }
-      100% { transform: translateX(0); }
+    .content .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
-    /* Footer */
-    footer {
-      color: #ccc;
-      font-size: 1.1em;
-      margin-top: 60px;
+    /* Redes Sociales */
+    .social-links {
+      margin-top: 40px;
     }
 
-    footer a {
-      color: #ffde59;
+    .social-links a {
+      color: #ffffff;
+      font-size: 2.5em;
+      margin: 0 20px;
       text-decoration: none;
+      transition: color 0.3s;
     }
 
-    footer a:hover {
-      text-decoration: underline;
+    .social-links a:hover {
+      color: #ffde59;
     }
 
+    footer {
+      margin-top: 60px;
+      color: #999;
+      font-size: 1em;
+    }
   </style>
 </head>
 <body>
 
-  <!-- Banner de bienvenida -->
+  <!-- Banner con tu Nombre -->
   <div class="banner">⚡BerMatModZ🔥</div>
-
-  <!-- Imagen de perfil -->
-  <div class="profile-img">
-    <img src="https://www.dropbox.com/scl/fi/7mcrgyboh578yg6bvqcmt/MagPic_20250501_185936660-3-Picsart-AiImageEnhancer.jpg-1.png?dl=1" alt="Imagen de BerMatModZ">
-  </div>
 
   <!-- Máscara de Anonymous -->
   <div class="anon-mask">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Guy_Fawkes_mask.svg/480px-Guy_Fawkes_mask.svg.png" alt="Anonymous Mask" width="100%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Guy_Fawkes_mask.svg/480px-Guy_Fawkes_mask.svg.png" alt="Anonymous Mask">
   </div>
 
-  <!-- Contenido principal -->
+  <!-- Contenido Principal -->
   <div class="content">
+    <!-- Imagen Personal -->
+    <div class="image-container">
+      <img src="URL_DE_TU_IMAGEN_AQUI" alt="Tu Imagen">
+    </div>
+
     <h2>Bienvenido a la página oficial de BerMatModZ</h2>
-
-    <p class="animated-text">Soy programador, hacker ético, y creador de inteligencia artificial.</p>
-
-    <p>Originario de <strong>Andahuaylas</strong></p>
-    <p>Novia: <strong>Briyidth Jhorgina</strong></p>
+    <p>Soy programador, hacker ético y creador de bots con inteligencia artificial. ¡Transformo la tecnología!</p>
+    <p>Originario de <strong>Andahuaylas</strong>, con un compromiso para cambiar el futuro.</p>
+    <p>Novia: <strong>Briyidth Jhorgina</strong> 💖</p>
 
     <h2>Proyectos:</h2>
     <ul>
-      <li>⚡ **BerMat-Bot MD🔥** (Bot de WhatsApp con IA)</li>
-      <li>**FAMA** - Fuerza Anónima de Mentes Avanzadas</li>
-      <li>**Simulador de Hack con voz y efectos especiales**</li>
+      <li>⚡ BerMat-Bot MD🔥 (WhatsApp Bot con IA)</li>
+      <li>FAMA - Fuerza Anónima de Mentes Avanzadas</li>
+      <li>Simulador de Hack con efectos de voz y animaciones</li>
     </ul>
 
     <p>"El conocimiento es libre. Somos Anonymous. Somos BerMatModZ. No perdonamos, no olvidamos. ¡Prepárate!"</p>
+
+    <!-- Redes Sociales -->
+    <div class="social-links">
+      <a href="https://www.facebook.com/AnthZz.Berrocal" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/AnthZz.Berrocal" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://open.spotify.com/user/AnthZz.Berrocal" target="_blank">
+        <i class="fab fa-spotify"></i>
+      </a>
+      <a href="https://www.youtube.com/c/AnthZzBerrocal" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://wa.me/+51900233784" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
   </div>
 
-  <!-- Footer -->
+  <!-- Pie de Página -->
   <footer>
-    Página creada por <strong>Anth'Zz Berrocal</strong> aka <strong>⚡BerMatModZ🔥</strong> © 2025<br>
-    <a href="https://github.com/BerMatMods" target="_blank">Visita mi GitHub</a>
+    Página creada por <strong>Anth'Zz Berrocal</strong>MasNa <strong>⚡BerMatModZ🔥</strong> © 2025
   </footer>
 
 </body>
