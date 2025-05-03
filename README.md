@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>⚡ BerMatModZ | Hacker Oficial ⚡</title>
+  <title>⚡ BerMatModZ | Oficial ⚡</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');* {
@@ -78,17 +78,17 @@ footer {
 </head>
 <body>
   <header>
-    <h1>⚡ BerMatModZ | Hacker Real ⚡</h1>
+    <h1>⚡ BerMatModZ | Proyect⚡</h1>
   </header>  <div class="content">
-    <h2>Sobre BerMatModZ</h2>
+    <h2>Quien es BerMatModZ</h2>
     <div class="info-box">
       <p><strong>Alias:</strong> BerMatModZ</p>
       <p><strong>Nombre real:</strong> Anth'Zz Berrocal</p>
       <p><strong>Ubicación:</strong> Andahuaylas, Perú</p>
-      <p><strong>Profesión:</strong> Hack3r de alto nivel, programador experto en automatización, bots de WhatsApp, inteligencia artificial y ciberseguridad.</p>
+      <p><strong>Profesión:</strong> De alto nivel, programador experto en automatización, bots de WhatsApp, inteligencia artificial y ciberseguridad.</p>
     </div><h2>Logros y Reconocimientos</h2>
 <div class="info-box">
-  <p>Conocido por crear el bot <strong>⚡BerMat-Bot MD🔥</strong> y herramientas revolucionarias como <strong>clonadores de WhatsApp</strong>, <strong>simuladores de hackeo profesional</strong> y <strong>proyectos IA decorados</strong>. Ha sido reconocido en múltiples grupos tech por su creatividad, detalle visual y nivel técnico.</p>
+  <p>Conocido por crear el bot <strong>⚡BerMat-Bot MD🔥</strong> y herramientas revolucionarias como <strong>clonadores de WhatsApp</strong>, <strong>sistemas de hackeo profesional</strong> y <strong>proyectos IA decorados</strong>. Ha sido reconocido en múltiples grupos tech por su creatividad, detalle visual y nivel técnico.</p>
 </div>
 
 <h2>Proyectos Reales</h2>
