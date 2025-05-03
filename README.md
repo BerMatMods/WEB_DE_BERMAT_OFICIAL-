@@ -203,9 +203,7 @@
         <a href="https://www.tiktok.com/@tuningcar321?_t=ZM-8w36jyweclT&_r=1" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok"></a>
       </div>
     </div>
-  </section>
-
-  <!-- Imagen rectangular centrada y adornada en la parte inferior -->
+  </section> <!-- Imagen rectangular centrada y adornada en la parte inferior -->
 <section style="text-align:center; padding: 40px 20px;">
   <div style="display: inline-block; border: 5px solid #8a2be2; padding: 15px; border-radius: 20px; box-shadow: 0 0 25px #8a2be2; margin-top: 50px;">
     <img src="https://i.postimg.cc/B6mW6Tkb/Banner-para-Twitch-Gamer-Ne-n-Morado-y-Negro-20250306-103302-0000.png" 
@@ -218,6 +216,8 @@
   <a href="https://www.facebook.com/anthzzberrocal" target="_blank"
      style="background: linear-gradient(90deg, #6a00f4, #c300ff); color: white; padding: 15px 40px; font-size: 20px; font-weight: bold; text-decoration: none; border-radius: 50px; box-shadow: 0 0 20px #a000ff; transition: all 0.3s ease;">
      ⭐Haz click aquí⭐
+
+  
   </a>
 </div>
   <footer>
