@@ -1,188 +1,156 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html><html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>⚡ BerMatModZ ⚡ - Perfil Profesional</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        /* Estilos generales del sitio */
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #121212;
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            flex-direction: column;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda BerMatModZ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+    }header {
+  background: linear-gradient(135deg, #00ffe1, #8f00ff);
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
-        /* Fondo de la página */
-        .background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #101010;
-            background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a0/Anonymous_mask.svg');
-            background-size: cover;
-            opacity: 0.05;
-            z-index: -1;
-        }
+header h1 {
+  font-size: 3.5em;
+  margin: 0;
+  text-shadow: 2px 2px 4px #000;
+}
 
-        /* Cuadro de perfil */
-        .profile {
-            background-color: rgba(18, 18, 18, 0.8);
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px #00FF00;
-            text-align: center;
-            width: 90%;
-            max-width: 800px;
-        }
+header p {
+  font-size: 1.3em;
+  margin-top: 10px;
+}
 
-        .profile img {
-            border-radius: 50%;
-            width: 180px;
-            height: 180px;
-            margin-bottom: 20px;
-        }
+nav {
+  background-color: #1a1a1a;
+  padding: 10px 0;
+  text-align: center;
+}
 
-        h1, h2 {
-            margin: 10px 0;
-            color: #00FF00;
-        }
+nav a {
+  color: #00ffe1;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-        h1 {
-            font-size: 3em;
-            font-weight: 700;
-        }
+.store-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
 
-        h2 {
-            font-size: 2em;
-            font-weight: 400;
-            color: #FF5733;
-        }
+.store-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #00ffe1;
+  display: inline-block;
+}
 
-        p {
-            font-size: 1.2em;
-            margin: 10px 0;
-            line-height: 1.6;
-        }
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
 
-        .social-links a {
-            color: #00FF00;
-            text-decoration: none;
-            margin: 10px;
-            font-size: 1.3em;
-            border: 2px solid #00FF00;
-            padding: 10px;
-            border-radius: 5px;
-            transition: 0.3s;
-            display: inline-block;
-        }
+.product {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,255,225,0.2);
+}
 
-        .social-links a:hover {
-            background-color: #00FF00;
-            color: #121212;
-            border-color: #FF5733;
-        }
+.product h3 {
+  color: #00ffe1;
+  margin-top: 0;
+}
 
-        /* Sección de información adicional */
-        .additional-info {
-            background-color: rgba(0, 0, 0, 0.8);
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 30px;
-            font-size: 1.1em;
-        }
+.product p {
+  font-size: 1em;
+  line-height: 1.6;
+}
 
-        /* Animación del banner */
-        .banner {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: #FF5733;
-            margin-top: 30px;
-            text-transform: uppercase;
-            animation: bannerAnimation 2s infinite alternate;
-        }
+.contact-section {
+  padding: 40px 20px;
+  text-align: center;
+}
 
-        @keyframes bannerAnimation {
-            0% {
-                transform: translateX(-10px);
-                color: #FF5733;
-            }
-            100% {
-                transform: translateX(10px);
-                color: #00FF00;
-            }
-        }
+.contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
 
-        /* Estilos adaptativos para móviles */
-        @media (max-width: 600px) {
-            .profile {
-                padding: 20px;
-            }
+.contact-section p,
+.contact-section a {
+  font-size: 1.1em;
+  color: #00ffe1;
+  text-decoration: none;
+}
 
-            .profile img {
-                width: 150px;
-                height: 150px;
-            }
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
 
-            h1 {
-                font-size: 2.5em;
-            }
-
-            h2 {
-                font-size: 1.8em;
-            }
-
-            p {
-                font-size: 1em;
-            }
-
-            .social-links a {
-                font-size: 1em;
-                padding: 8px;
-            }
-        }
-    </style>
+  </style>
 </head>
-<body>
-    <div class="background"></div>
-
-    <div class="profile">
-        <img src="https://images.app.goo.gl/NXu8J" alt="Foto de perfil BerMatModZ">
-        <h1>⚡ BerMatModZ ⚡</h1>
-        <h2>Programador más temido del ciberespacio asociados con Anonymous</h2>
-
-        <p>¡Bienvenido al perfil oficial de BerMatModZ,  moder y programador más avanzado! Aquí podrás conocer más sobre mi trabajo, mis intereses y cómo conectar conmigo a través de mis redes sociales.</p>
-
-        <div class="social-links">
-            <a href="https://www.facebook.com/share/192MxyLRmV/" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/king_berrocal?igsh=MXFvamljcnN2bzJkbg==" target="_blank">Instagram</a>
-            <a href="https://open.spotify.com/user/AnthZzBerrocal" target="_blank">Spotify</a>
-            <a href="https://www.youtube.com/c/AnthZzBerrocal" target="_blank">YouTube</a>
-            <a href="https://wa.me/51900233784" target="_blank">WhatsApp</a>
-        </div>
-
-        <div class="additional-info">
-            <p><strong>Ubicación:</strong> Andahuaylas, Perú</p>
-            <p><strong>Novia:</strong> ❤️ Briyidth Jhorgina ❤️</p>
-            <p><strong>Intereses:</strong> 💪 Gym, Tecnología, Ciberseguridad, Programación</p>
-        </div>
-
-        <div class="banner">⚡ BerMatModZ ⚡</div>
+<body>  <header>
+    <h1>⚡BerMatModZ🔥</h1>
+    <p>¡Bienvenido a la tienda oficial de mis proyectos tecnológicos!</p>
+  </header>  <nav>
+    <a href="#quien-soy">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>  <section class="store-section" id="quien-soy">
+    <h2>Sobre el Creador</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Anth'Zz Berrocal</h3>
+        <p>Fundador de BerMatModZ, experto en tecnología, bots, simulaciones hacker y automatización avanzada desde Andahuaylas, Perú.</p>
+      </div>
+      <div class="product">
+        <h3>Estilo y Filosofía</h3>
+        <p>"Domina la tecnología. Crea el futuro." Enfocado en crear herramientas útiles, impactantes y decoradas con estilo propio.</p>
+      </div>
     </div>
-
-<div class="banner">AnthzzBerrocal</div>
+  </section>  <section class="store-section" id="proyectos">
+    <h2>Catálogo de Proyectos</h2>
+    <div class="products">
+      <div class="product">
+        <h3>⚡BerMat-Bot MD🔥</h3>
+        <p>Bot de WhatsApp con inteligencia artificial, comandos personalizados, juegos y estilo GataBot-MD. 100% gratuito y funcional.</p>
+      </div>
+      <div class="product">
+        <h3>BerMat_Mods</h3>
+        <p>Repositorio exclusivo con herramientas para Termux, bots públicos, decoraciones, IA y simuladores.</p>
+      </div>
+      <div class="product">
+        <h3>Simulador Anonymous</h3>
+        <p>Script de simulación de hackeos con interfaz visual, voz artificial y ambiente de ciberseguridad.</p>
+      </div>
+      <div class="product">
+        <h3>Clonador WhatsApp Fake</h3>
+        <p>Simulación de clonación de WhatsApp con estilo original y mensajes animados tipo app real. ¡Totalmente personalizable!</p>
+      </div>
     </div>
-    
-
-
-</body>
+  </section>  <section class="contact-section" id="contacto">
+    <h2>Contacto Directo</h2>
+    <p>¿Interesado en un proyecto? Escríbeme directamente:</p>
+    <p><a href="https://wa.me/51937556459" target="_blank">WhatsApp: 937556459</a></p>
+    <p><a href="https://github.com/Anthzberrocal" target="_blank">GitHub: github.com/Anthzberrocal</a></p>
+  </section>  <footer>
+    © 2025 BerMatModZ | Diseñado por Anth'Zz Berrocal desde Andahuaylas. Todos los derechos reservados.
+  </footer></body>
 </html>
