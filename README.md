@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>⚡BerMatModZ🔥 - Página Oficial</title>
+  <title>⚡BerMatModZ-MD🔥 - Página Oficial</title>
   <!-- Fuentes Elegantes -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   <!-- Iconos de FontAwesome -->
@@ -134,19 +134,19 @@
   <div class="content">
     <!-- Imagen Personal -->
     <div class="image-container">
-      <img src="URL_DE_TU_IMAGEN_AQUI" alt="Tu Imagen">
+      <img src= alt="Tu Imagen">
     </div>
 
     <h2>Bienvenido a la página oficial de BerMatModZ</h2>
-    <p>Soy programador, hacker ético y creador de bots con inteligencia artificial. ¡Transformo la tecnología!</p>
+    <p>Soy programador,creador de bots con inteligencia artificial. ¡Transformo la tecnología!</p>
     <p>Originario de <strong>Andahuaylas</strong>, con un compromiso para cambiar el futuro.</p>
-    <p>Novia: <strong>Briyidth Jhorgina</strong> 💖</p>
+    <p>Colaboración: <strong>Mi Novia :Briyidth Jhorgina</strong> 💖</p>
 
     <h2>Proyectos:</h2>
     <ul>
       <li>⚡ BerMat-Bot MD🔥 (WhatsApp Bot con IA)</li>
       <li>FAMA - Fuerza Anónima de Mentes Avanzadas</li>
-      <li>Simulador de Hack con efectos de voz y animaciones</li>
+      <li>Hacker con efectos de voz y animaciones</li>
     </ul>
 
     <p>"El conocimiento es libre. Somos Anonymous. Somos BerMatModZ. No perdonamos, no olvidamos. ¡Prepárate!"</p>
@@ -173,7 +173,7 @@
 
   <!-- Pie de Página -->
   <footer>
-    Página creada por <strong>Anth'Zz Berrocal</strong>MasNa <strong>⚡BerMatModZ🔥</strong> © 2025
+    Página creada por <strong>Anth'Zz Berrocal</strong> ❤️10/11/23❤️ <strong>⚡BerMatModZ🔥</strong> © 2025
   </footer>
 
 </body>
