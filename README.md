@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+👀💪BerMatModZ 🫦🫂te da 🤡la Bienvenida 👹 al 🔪mundo de 🔥ciberataque 😎 y 💥ciberseguridad 👽🤖
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -151,7 +151,7 @@
   </header>
 
   <section class="banner-section">
-    <div class="banner glow">⚙️ Proyecto Estrella: BerMat-Bot MD🔥</div>
+    <div class="banner glow">⚙️ Proyecto del lider: BerMat-Bot MD🔥</div>
     <div class="banner glow">🧠 F.A.M.A: Fuerza Anónima de Mentes Avanzadas</div>
     <div class="banner glow">🤖 Clonador Estético de WhatsApp y Asistente IA</div>
   </section>
