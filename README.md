@@ -143,13 +143,14 @@ footer {
       <p>📛 <strong>Nombre:</strong> Anth'Zz Berrocal</p>
       <p>🧠 <strong>Alias:</strong> BerMatModZ</p>
       <p>📍 <strong>Ubicación:</strong> Andahuaylas, Perú</p>
-      <p>❤️ <strong>Colaboracion:</strong> Mi novia Briyidth</p>
-      <p>💻 <strong>Especialización:</strong> Bots en Termux, interfaces IA, hacking visual, efectos decorativos, automatización avanzada.</p>
+      <p>🔥 <strong>Colaboracion:</strong> 10/11/2023</p>
+      <p>💻 
+       <strong>Especialización:</strong> Bots en Termux, interfaces IA, hacking visual, efectos decorativos, automatización avanzada.</p>
     </div><h2>🚀 Proyectos Premium</h2>
 <div class="info-box">
   <p>⚡ <strong>BerMat-Bot MD🔥</strong> — WhatsApp bot completo, basado en GataBot-MD pero con mejoras, IA personalizada, juegos con emojis, interfaz romántica y comando .BerMat</p>
   <p>🧠 <strong>IA Aprendiz</strong> — Sistema en Termux con conversación avanzada e interacción natural</p>
-  <p>📲 <strong>Clonador WhatsApp Pro</strong> — Replica estética profesional con mensajes, efectos, audios IA y modo hacker</p>
+  <p>📲 <strong>Clonador WhatsApp Pro</strong> — Replica estética profesional con mensajes, efectos, audios IA y hacker somos una legión</p>
   <p>🛰️ <strong>F.A.M.A</strong> — Inteligencia cibernética decorada con animaciones y control remoto desde chat</p>
 </div>
 
@@ -157,7 +158,7 @@ footer {
 <div class="info-box">
   <p>✅ Creación de bots avanzados con IA</p>
   <p>✅ Automatización con Termux y Python</p>
-  <p>✅ Simulación profesional de interfaces</p>
+  <p>✅ Hackeando en modo  profesional de interfaces</p>
   <p>✅ Desarrollo visual con fondos, efectos y textos animados</p>
 </div>
 
@@ -175,7 +176,7 @@ footer {
 </div>
 
   </section>  <footer>
-    © 2025 ⚡ BerMatModZ ⚡ | Desarrollado por Anth'Zz Berrocal — Líder en Bots & Los sistemas de IA 
+    © 2025 ⚡ BerMatModZ ⚡ | Desarrollado por Anth'Zz Berrocal — Líder en BerMatModZ & Los sistemas de IA 
   </footer>
 </body>
 </html>
