@@ -213,7 +213,13 @@
          style="width: 90%; max-width: 700px; border-radius: 12px;">
   </div>
 </section>
-
+<!-- Botón decorado que dice "⭐Haz click aquí⭐" -->
+<div style="text-align:center; margin-top: 30px;">
+  <a href="https://www.facebook.com/anthzzberrocal" target="_blank"
+     style="background: linear-gradient(90deg, #6a00f4, #c300ff); color: white; padding: 15px 40px; font-size: 20px; font-weight: bold; text-decoration: none; border-radius: 50px; box-shadow: 0 0 20px #a000ff; transition: all 0.3s ease;">
+     ⭐Haz click aquí⭐
+  </a>
+</div>
   <footer>
     © 2025 ⚡ 𝑩𝒆𝒓𝑴𝒂𝒕𝑴𝒐𝒅𝒁 ⚡ | 𝑫𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐 𝒑𝒐𝒓 𝑨𝒏𝒕𝒉'𝒁𝒛 𝑩𝒆𝒓𝒓𝒐𝒄𝒂𝒍 — 𝙇𝙞𝙙𝙚𝙧 𝙚𝙣 𝘽𝙚𝙧𝙈𝙖𝙩𝙈𝙤𝙙𝙕 & 𝙩𝙤𝙙𝙤 𝙚𝙡 𝙨𝙞𝙨𝙩𝙚𝙢𝙖👽 
   </footer>
