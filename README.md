@@ -1,5 +1,4 @@
 <section style="text-align:center; padding: 40px 20px;">
-  <!-- Imagen centrada en un cuadro adornado -->
   <div style="display: inline-block; border: 5px solid #00ffe1; padding: 20px; border-radius: 15px; box-shadow: 0 0 20px #00ffe1;">
     <img src="https://i.postimg.cc/bvST5wCV/Mag-Pic-20250501-185936660-3.jpg" alt="Código BerMatModZ" style="width: 250px; height: 250px; border-radius: 10px;">
   </div>
@@ -13,6 +12,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>⚡ BerMatModZ | Profesional ⚡</title>
+  <meta name="google-site-verification" content="NDGCQqOUWeFfunh-TgqT8YZVbLZ-Ovi2WwUf57YqZVQ" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Rajdhani:wght@500&family=Share+Tech+Mono&display=swap');
     * {
@@ -203,28 +203,25 @@
         <a href="https://www.tiktok.com/@tuningcar321?_t=ZM-8w36jyweclT&_r=1" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok"></a>
       </div>
     </div>
-  </section> <!-- Imagen rectangular centrada y adornada en la parte inferior -->
-<section style="text-align:center; padding: 40px 20px;">
+  </section> <section style="text-align:center; padding: 40px 20px;">
   <div style="display: inline-block; border: 5px solid #8a2be2; padding: 15px; border-radius: 20px; box-shadow: 0 0 25px #8a2be2; margin-top: 50px;">
-    <img src="https://i.postimg.cc/B6mW6Tkb/Banner-para-Twitch-Gamer-Ne-n-Morado-y-Negro-20250306-103302-0000.png" 
-         alt="Banner BerMatModZ" 
+    <img src="https://i.postimg.cc/B6mW6Tkb/Banner-para-Twitch-Gamer-Ne-n-Morado-y-Negro-20250306-103302-0000.png"
+         alt="Banner BerMatModZ"
          style="width: 90%; max-width: 700px; border-radius: 12px;">
   </div>
 </section>
-<!-- Botón decorado que dice "⭐Haz click aquí⭐" -->
 <div style="text-align:center; margin-top: 30px;">
   <a href="https://www.facebook.com/anthzzberrocal" target="_blank"
      style="background: linear-gradient(90deg, #6a00f4, #c300ff); color: white; padding: 15px 40px; font-size: 20px; font-weight: bold; text-decoration: none; border-radius: 50px; box-shadow: 0 0 20px #a000ff; transition: all 0.3s ease;">
      ⭐Haz click aquí⭐
 
+
+  </a>
+</div>
+  <footer>
+    © 2025 ⚡ 𝑩𝒆𝒓𝑴𝒂𝒕𝑴𝒐𝒅𝒁 ⚡ | 𝑫𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐 𝒑𝒐𝒓 𝑨𝒏𝒕𝒉'𝒁𝒛 𝑩𝒆𝒓𝒓𝒐𝒄𝒂𝒍 — 𝙇𝙞𝙙𝙚𝙧 𝙚𝙣 𝘽𝙚𝙧𝙈𝙖𝙩𝙈𝙤𝙙𝙕 & 𝙩𝙤𝙙𝙤 𝙚𝙡 𝙨𝙞𝙨𝙩𝙚𝙢𝙖👽
+
+  </a>
+</div>
+  <footer>
   
-  </a>
-</div>
-  <footer>
-    © 2025 ⚡ 𝑩𝒆𝒓𝑴𝒂𝒕𝑴𝒐𝒅𝒁 ⚡ | 𝑫𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐 𝒑𝒐𝒓 𝑨𝒏𝒕𝒉'𝒁𝒛 𝑩𝒆𝒓𝒓𝒐𝒄𝒂𝒍 — 𝙇𝙞𝙙𝙚𝙧 𝙚𝙣 𝘽𝙚𝙧𝙈𝙖𝙩𝙈𝙤𝙙𝙕 & 𝙩𝙤𝙙𝙤 𝙚𝙡 𝙨𝙞𝙨𝙩𝙚𝙢𝙖👽 
-
-  </a>
-</div>
-  <footer>
-     
-
